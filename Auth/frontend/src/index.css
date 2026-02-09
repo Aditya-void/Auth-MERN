@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+html,body{
+    background-image: linear-gradient(to bottom,rgb(0, 0, 0), rgb(32, 25, 30), rgb(82, 52, 102));
+    width: 100%;
+
+}
