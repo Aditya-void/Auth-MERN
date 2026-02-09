@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import API from "../utils/api";
+import Login from "./Login";
 
 export default function Profile() {
   const [user, setUser] = useState(null);
@@ -17,7 +18,7 @@ export default function Profile() {
     alert("Logged out");
   };
 
-  if (!user) return <p>Login again !</p>;
+  if (!user) return <Login/> ;
 
   return (
     <>

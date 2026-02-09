@@ -24,9 +24,9 @@ export default function Login() {
                 <input className="ip2 h-3/9 w-full border-2 border-white rounded-2xl p-5 text-white text-lg" name="email" placeholder="Email"/>
                 <input className="ip2 h-3/9 w-full border-2 border-white rounded-2xl p-5 text-white text-lg" name="password" placeholder="Password"/>
                 <div className="btns h-3/9 w-full flex items-center justify-center gap-20 ">
-                    <button className="sign h-full w-1/4 text-center text-white text-lg bg-white/20 backdrop-blur-md border border-white/30 rounded-3xl p-6 shadow-lg">Login</button>
+                    <button className="Login h-full w-1/4 text-center text-white text-lg bg-white/20 backdrop-blur-md border border-white/30 rounded-3xl p-6 shadow-lg">Login</button>
                 </div>
-            </div>
+            </div>   
         </div>
       </div>
 
